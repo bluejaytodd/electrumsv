@@ -22,7 +22,7 @@ class StorageKind(IntEnum):
 
 DATABASE_EXT = ".sqlite"
 MIGRATION_FIRST = 22
-MIGRATION_CURRENT = 24
+MIGRATION_CURRENT = 25
 
 class TxFlags(IntFlag):
     Unset = 0
